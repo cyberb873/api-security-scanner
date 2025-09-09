@@ -1,0 +1,17 @@
+api_scanner/
+├── api_scanner.py          # Main CLI entrypoint
+├── scanners/
+│   ├── __init__.py
+│   ├── bola.py             # API1: Broken Object Level Authorization
+│   ├── broken_auth.py      # API2: Broken Authentication
+│   ├── property_auth.py    # API3: Broken Object Property Level Authorization
+│   ├── resource_consumption.py  # API4: Unrestricted Resource Consumption
+│   ├── function_auth.py    # API5: Broken Function Level Authorization
+│   ├── sensitive_flows.py  # API6: Unrestricted Access to Sensitive Business Flows
+│   ├── ssrf.py             # API7: Server Side Request Forgery
+│   ├── misconfiguration.py # API8: Security Misconfiguration
+│   ├── inventory.py        # API9: Improper Inventory Management
+│   └── unsafe_consumption.py # API10: Unsafe Consumption of APIs
+├── utils.py                # Utility functions (report generation, HTTP helpers)
+├── requirements.txt
+└── README.md
