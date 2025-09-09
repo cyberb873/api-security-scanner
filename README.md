@@ -36,3 +36,4 @@ Reports
 Reports are saved in the /reports directory as JSON and HTML files with timestamps.
 async def scan(endpoint) -> list[dict]:
     # Return list of vulnerabilities found with 'details' and 'remediation'
+
